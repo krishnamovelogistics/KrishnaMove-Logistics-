@@ -5,695 +5,736 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>KRISHNAMOVE LOGISTICS | Packers & Movers</title>
-<meta name="description" content="KRISHNAMOVE LOGISTICS - Safe Moves. Smooth Journeys. Packers & Movers in Noida, Delhi, Ghaziabad & Greater Noida.">
+
+<meta name="description" content="KRISHNAMOVE LOGISTICS — Safe Moves. Smooth Journeys. Serving Noida, Delhi, Ghaziabad and Greater Noida.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    scroll-behavior:smooth;
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
 }
 
 :root{
-    --gold:#d6ad52;
-    --gold2:#f3d27a;
-    --black:#050505;
-    --dark:#0c0c0c;
-    --card:#121212;
-    --white:#f7f7f7;
-    --muted:#a7a7a7;
+--gold:#d6ad52;
+--gold2:#f3d27a;
+--black:#050505;
+--white:#f7f7f7;
 }
 
 body{
-    font-family:'Inter',sans-serif;
-    background:var(--black);
-    color:var(--white);
-    overflow-x:hidden;
+font-family:Inter,sans-serif;
+background:var(--black);
+color:var(--white);
+overflow-x:hidden;
 }
 
 a{
-    text-decoration:none;
-    color:inherit;
+text-decoration:none;
+color:inherit;
 }
 
 .container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
+width:90%;
+max-width:1200px;
+margin:auto;
 }
 
-/* NAVBAR */
+/* HEADER */
 
 header{
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:999;
-    background:rgba(5,5,5,.82);
-    backdrop-filter:blur(15px);
-    border-bottom:1px solid rgba(214,173,82,.15);
+position:fixed;
+top:0;
+width:100%;
+z-index:999;
+background:rgba(5,5,5,.88);
+backdrop-filter:blur(15px);
+border-bottom:1px solid rgba(214,173,82,.15);
 }
 
 .nav{
-    height:78px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+height:78px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
 
 .logo{
-    font-size:22px;
-    font-weight:800;
-    letter-spacing:2px;
+font-size:21px;
+font-weight:800;
+letter-spacing:2px;
 }
 
 .logo span{
-    color:var(--gold);
+color:var(--gold);
 }
 
 .nav-links{
-    display:flex;
-    gap:30px;
-    align-items:center;
+display:flex;
+gap:30px;
+align-items:center;
 }
 
 .nav-links a{
-    color:#ddd;
-    font-size:14px;
-    transition:.3s;
+color:#ddd;
+font-size:14px;
 }
 
 .nav-links a:hover{
-    color:var(--gold2);
+color:var(--gold2);
 }
 
 .nav-btn{
-    border:1px solid var(--gold);
-    padding:11px 18px;
-    border-radius:30px;
-    color:var(--gold2)!important;
+border:1px solid var(--gold);
+padding:11px 18px;
+border-radius:30px;
+color:var(--gold2)!important;
 }
 
 /* HERO */
 
 .hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    position:relative;
-    overflow:hidden;
-    background:
-    radial-gradient(circle at 80% 25%,rgba(214,173,82,.16),transparent 30%),
-    radial-gradient(circle at 15% 80%,rgba(214,173,82,.08),transparent 30%),
-    linear-gradient(135deg,#050505,#101010);
+min-height:100vh;
+display:flex;
+align-items:center;
+position:relative;
+overflow:hidden;
+
+background:
+radial-gradient(circle at 80% 25%,rgba(214,173,82,.16),transparent 30%),
+radial-gradient(circle at 15% 80%,rgba(214,173,82,.08),transparent 30%),
+linear-gradient(135deg,#050505,#101010);
 }
 
 .hero:after{
-    content:"";
-    position:absolute;
-    width:500px;
-    height:500px;
-    border:1px solid rgba(214,173,82,.13);
-    border-radius:50%;
-    right:-180px;
-    bottom:-180px;
-    box-shadow:0 0 80px rgba(214,173,82,.05);
+content:"";
+position:absolute;
+width:500px;
+height:500px;
+border:1px solid rgba(214,173,82,.13);
+border-radius:50%;
+right:-180px;
+bottom:-180px;
 }
 
 .hero-content{
-    padding-top:80px;
-    max-width:780px;
-    position:relative;
-    z-index:2;
+padding-top:80px;
+max-width:780px;
+position:relative;
+z-index:2;
 }
 
 .badge{
-    display:inline-block;
-    padding:8px 15px;
-    border:1px solid rgba(214,173,82,.35);
-    border-radius:50px;
-    color:var(--gold2);
-    font-size:12px;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    margin-bottom:25px;
-    background:rgba(214,173,82,.05);
+display:inline-block;
+padding:8px 15px;
+border:1px solid rgba(214,173,82,.35);
+border-radius:50px;
+color:var(--gold2);
+font-size:12px;
+letter-spacing:2px;
+text-transform:uppercase;
+margin-bottom:25px;
+background:rgba(214,173,82,.05);
 }
 
 .hero h1{
-    font-family:'Playfair Display',serif;
-    font-size:clamp(48px,8vw,88px);
-    line-height:1;
-    margin-bottom:22px;
+font-family:"Playfair Display",serif;
+font-size:clamp(48px,8vw,88px);
+line-height:1;
+margin-bottom:22px;
 }
 
 .hero h1 span{
-    color:var(--gold);
+color:var(--gold);
 }
 
 .hero p{
-    color:#bdbdbd;
-    font-size:18px;
-    line-height:1.7;
-    max-width:650px;
+color:#bdbdbd;
+font-size:18px;
+line-height:1.7;
+max-width:650px;
 }
 
 .tagline{
-    color:var(--gold2)!important;
-    font-weight:600;
-    letter-spacing:1px;
-    margin-top:12px;
+color:var(--gold2)!important;
+font-weight:600;
+letter-spacing:1px;
+margin-top:12px;
 }
 
 .hero-buttons{
-    display:flex;
-    gap:15px;
-    margin-top:35px;
-    flex-wrap:wrap;
+display:flex;
+gap:15px;
+margin-top:35px;
+flex-wrap:wrap;
 }
 
 .btn{
-    padding:15px 24px;
-    border-radius:8px;
-    font-weight:700;
-    font-size:14px;
-    transition:.3s;
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    gap:8px;
+padding:15px 24px;
+border-radius:8px;
+font-weight:700;
+font-size:14px;
+transition:.3s;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:8px;
+border:0;
+cursor:pointer;
 }
 
 .btn-gold{
-    background:linear-gradient(135deg,var(--gold),var(--gold2));
-    color:#090909;
-    box-shadow:0 10px 30px rgba(214,173,82,.18);
+background:linear-gradient(135deg,var(--gold),var(--gold2));
+color:#090909;
+box-shadow:0 10px 30px rgba(214,173,82,.18);
 }
 
 .btn-gold:hover{
-    transform:translateY(-3px);
-    box-shadow:0 15px 40px rgba(214,173,82,.3);
+transform:translateY(-3px);
+box-shadow:0 15px 40px rgba(214,173,82,.3);
 }
 
 .btn-dark{
-    border:1px solid #444;
-    background:#111;
-    color:white;
+border:1px solid #444;
+background:#111;
+color:white;
 }
 
 .btn-dark:hover{
-    border-color:var(--gold);
-    color:var(--gold2);
+border-color:var(--gold);
+color:var(--gold2);
 }
 
+/* HERO STATS */
+
 .hero-bottom{
-    margin-top:55px;
-    display:flex;
-    gap:35px;
-    flex-wrap:wrap;
+margin-top:55px;
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:18px;
+max-width:620px;
+}
+
+.hero-stat{
+min-width:0;
 }
 
 .hero-stat strong{
-    display:block;
-    color:var(--gold2);
-    font-size:20px;
+display:block;
+color:var(--gold2);
+font-size:19px;
+white-space:nowrap;
 }
 
 .hero-stat small{
-    color:#888;
+color:#888;
+font-size:13px;
 }
 
-/* SECTION */
+/* SECTIONS */
 
 section{
-    padding:100px 0;
+padding:100px 0;
 }
 
 .section-title{
-    text-align:center;
-    margin-bottom:55px;
+text-align:center;
+margin-bottom:55px;
 }
 
 .section-title .mini{
-    color:var(--gold);
-    text-transform:uppercase;
-    font-size:12px;
-    letter-spacing:3px;
-    font-weight:700;
+color:var(--gold);
+text-transform:uppercase;
+font-size:12px;
+letter-spacing:3px;
+font-weight:700;
 }
 
 .section-title h2{
-    font-family:'Playfair Display',serif;
-    font-size:44px;
-    margin:12px 0;
+font-family:"Playfair Display",serif;
+font-size:44px;
+margin:12px 0;
 }
 
 .section-title p{
-    color:#999;
-    max-width:600px;
-    margin:auto;
-    line-height:1.7;
+color:#999;
+max-width:600px;
+margin:auto;
+line-height:1.7;
 }
 
 /* SERVICES */
 
-.services{
-    background:#090909;
+.services,
+.locations,
+.contact{
+background:#090909;
 }
 
 .service-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
 }
 
 .service{
-    background:linear-gradient(145deg,#151515,#0d0d0d);
-    border:1px solid #242424;
-    padding:32px;
-    border-radius:15px;
-    transition:.35s;
-    position:relative;
-    overflow:hidden;
-}
-
-.service:before{
-    content:"";
-    position:absolute;
-    width:100px;
-    height:100px;
-    right:-50px;
-    top:-50px;
-    border-radius:50%;
-    background:rgba(214,173,82,.08);
+background:linear-gradient(145deg,#151515,#0d0d0d);
+border:1px solid #242424;
+padding:32px;
+border-radius:15px;
+transition:.35s;
+position:relative;
+overflow:hidden;
 }
 
 .service:hover{
-    transform:translateY(-7px);
-    border-color:rgba(214,173,82,.45);
+transform:translateY(-7px);
+border-color:rgba(214,173,82,.45);
 }
 
 .icon{
-    width:52px;
-    height:52px;
-    border-radius:12px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:25px;
-    background:rgba(214,173,82,.1);
-    border:1px solid rgba(214,173,82,.2);
-    margin-bottom:22px;
+width:52px;
+height:52px;
+border-radius:12px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:23px;
+background:rgba(214,173,82,.1);
+border:1px solid rgba(214,173,82,.2);
+margin-bottom:22px;
+color:var(--gold2);
 }
 
 .service h3{
-    margin-bottom:12px;
+margin-bottom:12px;
 }
 
 .service p{
-    color:#999;
-    line-height:1.7;
-    font-size:14px;
+color:#999;
+line-height:1.7;
+font-size:14px;
 }
 
 /* ABOUT */
 
 .about-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:center;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
 }
 
 .about-box{
-    padding:40px;
-    background:linear-gradient(145deg,#151515,#090909);
-    border:1px solid #242424;
-    border-radius:18px;
-    position:relative;
+padding:40px;
+background:linear-gradient(145deg,#151515,#090909);
+border:1px solid #242424;
+border-radius:18px;
+position:relative;
 }
 
 .about-box:before{
-    content:"";
-    position:absolute;
-    left:0;
-    top:25px;
-    bottom:25px;
-    width:3px;
-    background:var(--gold);
+content:"";
+position:absolute;
+left:0;
+top:25px;
+bottom:25px;
+width:3px;
+background:var(--gold);
 }
 
 .about h2{
-    font-family:'Playfair Display',serif;
-    font-size:45px;
-    margin-bottom:20px;
+font-family:"Playfair Display",serif;
+font-size:45px;
+margin-bottom:20px;
 }
 
 .about p{
-    color:#aaa;
-    line-height:1.9;
-    margin-bottom:18px;
+color:#aaa;
+line-height:1.9;
+margin-bottom:18px;
 }
 
 .check{
-    display:flex;
-    gap:10px;
-    margin:12px 0;
-    color:#ddd;
+display:flex;
+gap:10px;
+margin:12px 0;
+color:#ddd;
 }
 
 .check span{
-    color:var(--gold2);
+color:var(--gold2);
 }
 
 /* LOCATIONS */
 
-.locations{
-    background:#090909;
-}
-
 .location-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:15px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:15px;
 }
 
 .location{
-    padding:25px 15px;
-    text-align:center;
-    border:1px solid #252525;
-    border-radius:12px;
-    background:#111;
-    transition:.3s;
+padding:25px 15px;
+text-align:center;
+border:1px solid #252525;
+border-radius:12px;
+background:#111;
+transition:.3s;
 }
 
 .location:hover{
-    border-color:var(--gold);
+border-color:var(--gold);
 }
 
 .location .pin{
-    font-size:25px;
-    margin-bottom:10px;
-}
-
-.location h3{
-    font-size:16px;
+font-size:25px;
+margin-bottom:10px;
 }
 
 /* QUOTE */
 
-.quote{
-    position:relative;
-}
-
 .quote-card{
-    max-width:850px;
-    margin:auto;
-    background:linear-gradient(145deg,#161616,#0b0b0b);
-    border:1px solid rgba(214,173,82,.3);
-    border-radius:20px;
-    padding:45px;
-    box-shadow:0 20px 80px rgba(0,0,0,.4);
+max-width:850px;
+margin:auto;
+background:linear-gradient(145deg,#161616,#0b0b0b);
+border:1px solid rgba(214,173,82,.3);
+border-radius:20px;
+padding:45px;
+box-shadow:0 20px 80px rgba(0,0,0,.4);
 }
 
 .quote-card h2{
-    font-family:'Playfair Display',serif;
-    font-size:38px;
-    margin-bottom:10px;
+font-family:"Playfair Display",serif;
+font-size:38px;
+margin-bottom:10px;
 }
 
 .quote-card>p{
-    color:#999;
-    margin-bottom:30px;
+color:#999;
+margin-bottom:30px;
 }
 
 .form-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:15px;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
 }
 
-input,select,textarea{
-    width:100%;
-    padding:15px;
-    background:#090909;
-    border:1px solid #303030;
-    color:white;
-    border-radius:8px;
-    outline:none;
-    font-family:inherit;
+.field{
+display:flex;
+flex-direction:column;
+gap:7px;
 }
 
-input:focus,select:focus,textarea:focus{
-    border-color:var(--gold);
+.field label{
+font-size:12px;
+color:#b9b9b9;
+padding-left:2px;
+}
+
+.field.full{
+grid-column:1/-1;
+}
+
+input,
+select,
+textarea{
+width:100%;
+padding:15px;
+background:#090909;
+border:1px solid #303030;
+color:white;
+border-radius:8px;
+outline:none;
+font-family:inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+border-color:var(--gold);
 }
 
 textarea{
-    min-height:110px;
-    resize:vertical;
-}
-
-.full{
-    grid-column:1/-1;
+min-height:110px;
+resize:vertical;
 }
 
 .quote-note{
-    font-size:12px;
-    color:#777;
-    margin-top:12px;
+font-size:12px;
+color:#777;
+margin-top:12px;
 }
 
 /* CONTACT */
 
-.contact{
-    background:#090909;
-}
-
 .contact-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
 }
 
 .contact-card{
-    padding:30px;
-    text-align:center;
-    border:1px solid #252525;
-    background:#111;
-    border-radius:15px;
+padding:30px;
+text-align:center;
+border:1px solid #252525;
+background:#111;
+border-radius:15px;
 }
 
 .contact-card .big{
-    font-size:30px;
-    margin-bottom:15px;
+font-size:30px;
+margin-bottom:15px;
 }
 
 .contact-card h3{
-    margin-bottom:8px;
+margin-bottom:8px;
 }
 
 .contact-card p{
-    color:#999;
-    font-size:14px;
-    word-break:break-word;
+color:#999;
+font-size:14px;
+word-break:break-word;
 }
 
 /* FOOTER */
 
 footer{
-    padding:45px 0 25px;
-    border-top:1px solid #202020;
-    background:#050505;
+padding:45px 0 25px;
+border-top:1px solid #202020;
+background:#050505;
 }
 
 .footer-main{
-    display:flex;
-    justify-content:space-between;
-    gap:30px;
-    align-items:center;
+display:flex;
+justify-content:space-between;
+gap:30px;
+align-items:center;
 }
 
 .footer-brand p{
-    color:#777;
-    font-size:13px;
-    margin-top:10px;
+color:#777;
+font-size:13px;
+margin-top:10px;
 }
 
 .footer-links{
-    display:flex;
-    gap:20px;
-    color:#999;
-    font-size:13px;
+display:flex;
+gap:20px;
+color:#999;
+font-size:13px;
 }
 
 .footer-links a:hover{
-    color:var(--gold2);
+color:var(--gold2);
 }
 
 .copyright{
-    text-align:center;
-    color:#555;
-    border-top:1px solid #181818;
-    margin-top:30px;
-    padding-top:20px;
-    font-size:12px;
+text-align:center;
+color:#555;
+border-top:1px solid #181818;
+margin-top:30px;
+padding-top:20px;
+font-size:12px;
 }
 
-/* FLOATING WHATSAPP */
+/* WHATSAPP */
 
 .whatsapp{
-    position:fixed;
-    right:20px;
-    bottom:20px;
-    width:58px;
-    height:58px;
-    border-radius:50%;
-    background:#25D366;
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:28px;
-    z-index:999;
-    box-shadow:0 10px 30px rgba(37,211,102,.25);
-    transition:.3s;
+position:fixed;
+right:16px;
+bottom:16px;
+width:52px;
+height:52px;
+border-radius:50%;
+background:#25D366;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:24px;
+z-index:999;
+box-shadow:0 8px 25px rgba(37,211,102,.22);
+transition:.3s;
 }
 
 .whatsapp:hover{
-    transform:scale(1.08);
+transform:scale(1.08);
 }
 
 /* MOBILE */
 
 @media(max-width:800px){
 
-    .nav{
-        height:68px;
-    }
+.nav{
+height:68px;
+}
 
-    .logo{
-        font-size:17px;
-    }
+.logo{
+font-size:16px;
+}
 
-    .nav-links{
-        display:none;
-    }
+.nav-links{
+display:none;
+}
 
-    .hero{
-        min-height:90vh;
-    }
+.hero{
+min-height:90vh;
+}
 
-    .hero h1{
-        font-size:52px;
-    }
+.hero h1{
+font-size:52px;
+}
 
-    .hero p{
-        font-size:15px;
-    }
+.hero p{
+font-size:15px;
+}
 
-    section{
-        padding:75px 0;
-    }
+section{
+padding:75px 0;
+}
 
-    .section-title h2{
-        font-size:35px;
-    }
+.section-title h2{
+font-size:35px;
+}
 
-    .service-grid,
-    .about-grid,
-    .contact-grid{
-        grid-template-columns:1fr;
-    }
+.service-grid,
+.about-grid,
+.contact-grid{
+grid-template-columns:1fr;
+}
 
-    .location-grid{
-        grid-template-columns:1fr 1fr;
-    }
+.location-grid{
+grid-template-columns:1fr 1fr;
+}
 
-    .about-grid{
-        gap:25px;
-    }
+.about-grid{
+gap:25px;
+}
 
-    .about h2{
-        font-size:37px;
-    }
+.about h2{
+font-size:37px;
+}
 
-    .form-grid{
-        grid-template-columns:1fr;
-    }
+.form-grid{
+grid-template-columns:1fr;
+}
 
-    .full{
-        grid-column:auto;
-    }
+.field.full{
+grid-column:auto;
+}
 
-    .quote-card{
-        padding:28px 20px;
-    }
+.quote-card{
+padding:28px 20px;
+}
 
-    .quote-card h2{
-        font-size:32px;
-    }
+.quote-card h2{
+font-size:32px;
+}
 
-    .footer-main{
-        flex-direction:column;
-        text-align:center;
-    }
+.footer-main{
+flex-direction:column;
+text-align:center;
+}
 
-    .footer-links{
-        flex-wrap:wrap;
-        justify-content:center;
-    }
+.footer-links{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-bottom{
+gap:12px;
+max-width:100%;
+}
+
+.hero-stat strong{
+font-size:16px;
+}
+
+.hero-stat small{
+font-size:12px;
+}
+
+.whatsapp{
+right:14px;
+bottom:14px;
+}
+
 }
 
 @media(max-width:420px){
-    .hero h1{
-        font-size:44px;
-    }
 
-    .location-grid{
-        grid-template-columns:1fr;
-    }
-
-    .hero-buttons .btn{
-        width:100%;
-    }
+.hero h1{
+font-size:44px;
 }
+
+.location-grid{
+grid-template-columns:1fr;
+}
+
+.hero-buttons .btn{
+width:100%;
+}
+
+.hero-bottom{
+grid-template-columns:repeat(3,1fr);
+}
+
+.hero-stat strong{
+font-size:14px;
+}
+
+.hero-stat small{
+font-size:11px;
+}
+
+}
+
 </style>
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-
 <header>
+
 <div class="container nav">
 
 <a href="#" class="logo">
-KRISHNA<span>MOVE</span>
+KRISHNA<span>MOVE</span> LOGISTICS
 </a>
 
 <nav class="nav-links">
+
 <a href="#services">Services</a>
 <a href="#about">About</a>
 <a href="#locations">Locations</a>
-<a href="#quote" class="nav-btn">Get a Quote</a>
+
+<a href="#quote" class="nav-btn">
+Get a Quote
+</a>
+
 </nav>
 
 </div>
+
 </header>
 
-
-<!-- HERO -->
 
 <section class="hero">
 
 <div class="container hero-content">
 
-<div class="badge">NOIDA • DELHI NCR • LOGISTICS</div>
+<div class="badge">
+NOIDA • DELHI NCR • LOGISTICS
+</div>
 
 <h1>
 Move With<br>
@@ -701,8 +742,7 @@ Move With<br>
 </h1>
 
 <p>
-Professional moving and logistics solutions designed to make
-your relocation simple, secure and stress-free.
+Professional moving and logistics solutions designed to make your relocation simple, secure and stress-free.
 </p>
 
 <p class="tagline">
@@ -741,158 +781,183 @@ Safe Moves. Smooth Journeys.
 </div>
 
 </div>
+
 </section>
 
-
-<!-- SERVICES -->
 
 <section class="services" id="services">
 
 <div class="container">
 
 <div class="section-title">
-<div class="mini">What We Do</div>
-<h2>Our Services</h2>
-<p>
-From packing your belongings to delivering them safely,
-we handle your move with care.
-</p>
+
+<div class="mini">
+What We Do
 </div>
+
+<h2>
+Our Services
+</h2>
+
+<p>
+From packing your belongings to delivering them safely, we handle your move with care.
+</p>
+
+</div>
+
 
 <div class="service-grid">
 
 <div class="service">
-<div class="icon">🏠</div>
+<div class="icon">⌂</div>
 <h3>Home Shifting</h3>
 <p>
-Complete household shifting solutions with careful
-packing, loading, transportation and unloading.
+Complete household shifting solutions with careful packing, loading, transportation and unloading.
 </p>
 </div>
 
 <div class="service">
-<div class="icon">🏢</div>
+<div class="icon">▦</div>
 <h3>Office Shifting</h3>
 <p>
-Move your office equipment, furniture and essentials
-with organized and careful handling.
+Move your office equipment, furniture and essentials with organized and careful handling.
 </p>
 </div>
 
 <div class="service">
-<div class="icon">📦</div>
+<div class="icon">▣</div>
 <h3>Packing & Unpacking</h3>
 <p>
-Proper packing and unpacking assistance to help keep
-your valuable belongings protected during transit.
+Proper packing and unpacking assistance to help keep your valuable belongings protected during transit.
 </p>
 </div>
 
 <div class="service">
-<div class="icon">🚚</div>
+<div class="icon">▰</div>
 <h3>Local Moving</h3>
 <p>
-Reliable local moving services across Noida and
-Delhi-NCR for homes, offices and businesses.
+Reliable local moving services across Noida and Delhi-NCR for homes, offices and businesses.
 </p>
 </div>
 
 <div class="service">
-<div class="icon">🛣️</div>
+<div class="icon">➜</div>
 <h3>Transport Services</h3>
 <p>
-Transportation support for moving goods safely from
-pickup point to destination.
+Transportation support for moving goods safely from pickup point to destination.
 </p>
 </div>
 
 <div class="service">
-<div class="icon">🤝</div>
+<div class="icon">↕</div>
 <h3>Loading & Unloading</h3>
 <p>
-Careful loading and unloading assistance for a smoother
-and more organized relocation.
+Careful loading and unloading assistance for a smoother and more organized relocation.
 </p>
 </div>
 
 </div>
+
 </div>
+
 </section>
 
-
-<!-- ABOUT -->
 
 <section class="about" id="about">
 
 <div class="container about-grid">
 
 <div>
-<div class="section-title" style="text-align:left;margin-bottom:20px;">
-<div class="mini">About Us</div>
-<h2>Moving Made<br>Simple.</h2>
+
+<div class="section-title" style="text-align:left;margin-bottom:20px">
+
+<div class="mini">
+About Us
+</div>
+
+<h2>
+Moving Made<br>
+Simple.
+</h2>
+
 </div>
 
 <p>
-At <strong>KRISHNAMOVE LOGISTICS</strong>, our goal is to make
-moving easier, safer and more convenient for our customers.
+At <strong>KRISHNAMOVE LOGISTICS</strong>, our goal is to make moving easier, safer and more convenient for our customers.
 </p>
 
 <p>
-We focus on responsible handling, clear communication and
-smooth transportation from pickup to delivery.
+We focus on responsible handling, clear communication and smooth transportation from pickup to delivery.
 </p>
 
 <a href="#quote" class="btn btn-gold">
 Plan Your Move →
 </a>
+
 </div>
+
 
 <div class="about-box">
 
-<h3>Your belongings.<br>
-Our responsibility.</h3>
+<h3>
+Your belongings.<br>
+Our responsibility.
+</h3>
 
 <br>
 
 <div class="check">
-<span>✓</span> Careful handling
+<span>✓</span>
+Careful handling
 </div>
 
 <div class="check">
-<span>✓</span> Clear communication
+<span>✓</span>
+Clear communication
 </div>
 
 <div class="check">
-<span>✓</span> Transparent quotation
+<span>✓</span>
+Transparent quotation
 </div>
 
 <div class="check">
-<span>✓</span> Local Delhi-NCR coverage
+<span>✓</span>
+Local Delhi-NCR coverage
 </div>
 
 <div class="check">
-<span>✓</span> Customer-focused service
+<span>✓</span>
+Customer-focused service
 </div>
 
 </div>
 
 </div>
+
 </section>
 
-
-<!-- LOCATIONS -->
 
 <section class="locations" id="locations">
 
 <div class="container">
 
 <div class="section-title">
-<div class="mini">Service Areas</div>
-<h2>Where We Serve</h2>
+
+<div class="mini">
+Service Areas
+</div>
+
+<h2>
+Where We Serve
+</h2>
+
 <p>
 Currently serving major areas across Noida and Delhi-NCR.
 </p>
+
 </div>
+
 
 <div class="location-grid">
 
@@ -919,10 +984,9 @@ Currently serving major areas across Noida and Delhi-NCR.
 </div>
 
 </div>
+
 </section>
 
-
-<!-- QUOTE -->
 
 <section class="quote" id="quote">
 
@@ -930,47 +994,148 @@ Currently serving major areas across Noida and Delhi-NCR.
 
 <div class="quote-card">
 
-<h2>Get a Free Quote</h2>
+<h2>
+Get a Free Quote
+</h2>
 
 <p>
-Tell us about your move and we'll get back to you with
-the details.
+Tell us about your move and we'll get back to you with the details.
 </p>
+
 
 <form id="quoteForm">
 
 <div class="form-grid">
 
-<input type="text" id="name" placeholder="Your Name" required>
 
-<input type="tel" id="phone" placeholder="Phone Number" required>
+<div class="field">
 
-<input type="text" id="from" placeholder="Pickup Location" required>
+<label for="name">
+YOUR NAME
+</label>
 
-<input type="text" id="to" placeholder="Delivery Location" required>
+<input
+type="text"
+id="name"
+placeholder="Enter your name"
+required
+>
+
+</div>
+
+
+<div class="field">
+
+<label for="phone">
+PHONE NUMBER
+</label>
+
+<input
+type="tel"
+id="phone"
+placeholder="Enter phone number"
+required
+>
+
+</div>
+
+
+<div class="field">
+
+<label for="from">
+PICKUP LOCATION
+</label>
+
+<input
+type="text"
+id="from"
+placeholder="e.g. Noida Sector 5"
+required
+>
+
+</div>
+
+
+<div class="field">
+
+<label for="to">
+DELIVERY LOCATION
+</label>
+
+<input
+type="text"
+id="to"
+placeholder="e.g. Greater Noida"
+required
+>
+
+</div>
+
+
+<div class="field">
+
+<label for="service">
+SERVICE
+</label>
 
 <select id="service">
-<option value="">Select Service</option>
+
+<option value="">
+Select Service
+</option>
+
 <option>Home Shifting</option>
 <option>Office Shifting</option>
 <option>Packing & Unpacking</option>
 <option>Local Moving</option>
 <option>Transport Service</option>
 <option>Loading & Unloading</option>
+
 </select>
 
-<input type="date" id="date">
+</div>
 
-<textarea id="message" class="full"
-placeholder="Tell us anything else about your move..."></textarea>
 
-<button type="submit" class="btn btn-gold full">
+<div class="field">
+
+<label for="date">
+MOVING DATE
+</label>
+
+<input
+type="date"
+id="date"
+>
+
+</div>
+
+
+<div class="field full">
+
+<label for="message">
+ADDITIONAL DETAILS
+</label>
+
+<textarea
+id="message"
+placeholder="Tell us anything else about your move..."
+></textarea>
+
+</div>
+
+
+<button
+type="submit"
+class="btn btn-gold field full"
+>
 📲 Request Quote on WhatsApp
 </button>
+
 
 </div>
 
 </form>
+
 
 <div class="quote-note">
 Your details will open in WhatsApp so you can send your enquiry directly.
@@ -979,47 +1144,76 @@ Your details will open in WhatsApp so you can send your enquiry directly.
 </div>
 
 </div>
+
 </section>
 
-
-<!-- CONTACT -->
 
 <section class="contact">
 
 <div class="container">
 
 <div class="section-title">
-<div class="mini">Contact Us</div>
-<h2>Let's Move Together</h2>
+
+<div class="mini">
+Contact Us
 </div>
+
+<h2>
+Let's Move Together
+</h2>
+
+</div>
+
 
 <div class="contact-grid">
 
-<a href="tel:+919654075048" class="contact-card">
-<div class="big">📞</div>
+<a
+href="tel:+919654075048"
+class="contact-card"
+>
+
+<div class="big">☎</div>
+
 <h3>Call Us</h3>
+
 <p>+91 9654075048</p>
+
 </a>
 
-<a href="tel:+918448258922" class="contact-card">
-<div class="big">📱</div>
+
+<a
+href="tel:+918448258922"
+class="contact-card"
+>
+
+<div class="big">☎</div>
+
 <h3>Call Us</h3>
+
 <p>+91 8448258922</p>
+
 </a>
 
-<a href="mailto:krishnamovelogistics@gmail.com" class="contact-card">
-<div class="big">✉️</div>
+
+<a
+href="mailto:krishnamovelogistics@gmail.com"
+class="contact-card"
+>
+
+<div class="big">✉</div>
+
 <h3>Email</h3>
+
 <p>krishnamovelogistics@gmail.com</p>
+
 </a>
 
 </div>
 
 </div>
+
 </section>
 
-
-<!-- FOOTER -->
 
 <footer>
 
@@ -1028,25 +1222,38 @@ Your details will open in WhatsApp so you can send your enquiry directly.
 <div class="footer-main">
 
 <div class="footer-brand">
+
 <div class="logo">
 KRISHNA<span>MOVE</span> LOGISTICS
 </div>
-<p>Safe Moves. Smooth Journeys.</p>
+
+<p>
+Safe Moves. Smooth Journeys.
+</p>
+
 </div>
 
+
 <div class="footer-links">
+
 <a href="#services">Services</a>
 <a href="#about">About</a>
 <a href="#locations">Locations</a>
 <a href="#quote">Get a Quote</a>
+
 </div>
 
 </div>
+
 
 <div class="copyright">
+
 © 2026 KRISHNAMOVE LOGISTICS. All Rights Reserved.
+
 <br>
+
 Noida • Delhi • Ghaziabad • Greater Noida
+
 </div>
 
 </div>
@@ -1054,46 +1261,70 @@ Noida • Delhi • Ghaziabad • Greater Noida
 </footer>
 
 
-<!-- FLOATING WHATSAPP -->
-
 <a
 class="whatsapp"
 href="https://wa.me/919654075048"
 target="_blank"
-aria-label="WhatsApp">
+aria-label="WhatsApp"
+>
 💬
 </a>
 
 
 <script>
 
-document.getElementById("quoteForm").addEventListener("submit", function(e){
+document
+.getElementById("quoteForm")
+.addEventListener("submit",function(e){
 
 e.preventDefault();
 
-let name = document.getElementById("name").value;
-let phone = document.getElementById("phone").value;
-let from = document.getElementById("from").value;
-let to = document.getElementById("to").value;
-let service = document.getElementById("service").value;
-let date = document.getElementById("date").value;
-let message = document.getElementById("message").value;
+const name =
+document.getElementById("name").value;
 
-let text =
-"🚚 *KRISHNAMOVE LOGISTICS - QUOTE REQUEST*%0A%0A" +
+const phone =
+document.getElementById("phone").value;
 
-"*Name:* " + name + "%0A" +
-"*Phone:* " + phone + "%0A" +
-"*Pickup:* " + from + "%0A" +
-"*Delivery:* " + to + "%0A" +
-"*Service:* " + service + "%0A" +
-"*Moving Date:* " + (date || "Not specified") + "%0A" +
-"*Message:* " + (message || "None") + "%0A%0A" +
+const from =
+document.getElementById("from").value;
 
-"Safe Moves. Smooth Journeys.";
+const to =
+document.getElementById("to").value;
+
+const service =
+document.getElementById("service").value;
+
+const date =
+document.getElementById("date").value;
+
+const message =
+document.getElementById("message").value;
+
+
+const text =
+`🚚 *KRISHNAMOVE LOGISTICS - QUOTE REQUEST*
+
+*Name:* ${name}
+
+*Phone:* ${phone}
+
+*Pickup:* ${from}
+
+*Delivery:* ${to}
+
+*Service:* ${service || "Not specified"}
+
+*Moving Date:* ${date || "Not specified"}
+
+*Message:* ${message || "None"}
+
+Safe Moves. Smooth Journeys.`;
+
 
 window.open(
-"https://wa.me/919654075048?text=" + text,
+"https://wa.me/919654075048?text="
++
+encodeURIComponent(text),
 "_blank"
 );
 
@@ -1102,4 +1333,4 @@ window.open(
 </script>
 
 </body>
-  </html>
+    </html>
