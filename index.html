@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KrishnaMove Logistics - Professional packing, moving and transportation services across Noida, Delhi, Ghaziabad and Greater Noida.">
+<title>KrishnaMove Logistics | Safe Moves. Smooth Journeys.</title>
+<style>
+:root{--bg:#07080a;--card:#111317;--card2:#17191e;--gold:#d8ad58;--gold2:#f0cf83;--text:#f5f5f5;--muted:#a8abb2;--line:#282b31}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(7,8,10,.86);backdrop-filter:blur(15px);border-bottom:1px solid rgba(216,173,88,.2)}
+nav{height:74px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:1.2px;font-size:19px}.logo i{font-style:normal;color:var(--gold)}
+nav ul{display:flex;gap:25px;list-style:none;font-size:14px;color:#ccc}nav a:hover{color:var(--gold)}
+.menu{display:none;font-size:25px}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;
+background:radial-gradient(circle at 78% 25%,rgba(216,173,88,.18),transparent 28%),radial-gradient(circle at 10% 85%,rgba(216,173,88,.08),transparent 25%),linear-gradient(135deg,#07080a,#15171b 58%,#090a0c)}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:58px 58px}
+.hero-content{position:relative;z-index:2;padding-top:75px;max-width:800px}
+.pill{display:inline-block;border:1px solid rgba(216,173,88,.5);border-radius:100px;padding:7px 14px;color:var(--gold2);font-size:12px;text-transform:uppercase;letter-spacing:1.7px;margin-bottom:20px}
+h1{font-size:clamp(45px,7vw,78px);line-height:1.02;letter-spacing:-2px}h1 span{color:var(--gold)}
+.hero-copy{max-width:690px;color:#c0c2c8;font-size:18px;margin:22px 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:13px 20px;border-radius:10px;font-size:14px;font-weight:800;display:inline-block;transition:.2s}
+.goldbtn{background:var(--gold);color:#111}.goldbtn:hover{background:var(--gold2);transform:translateY(-2px)}
+.darkbtn{border:1px solid #45484f;background:#15171b}.darkbtn:hover{border-color:var(--gold);color:var(--gold)}
+.hero-art{position:absolute;right:4%;bottom:12%;font-size:155px;opacity:.09;transform:scaleX(-1)}
+.trust{display:flex;gap:10px;flex-wrap:wrap;margin-top:35px;color:#b8bac0;font-size:13px}.trust span{border:1px solid #303238;padding:7px 11px;border-radius:8px;background:rgba(255,255,255,.025)}
+section{padding:90px 0}.darksection{background:#0c0e11}
+.heading{text-align:center;margin-bottom:45px}.heading small{color:var(--gold);text-transform:uppercase;letter-spacing:2px}.heading h2{font-size:38px;margin:6px 0}.heading p{color:var(--muted);max-width:650px;margin:auto}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.card{background:linear-gradient(145deg,#14161a,#0e1013);border:1px solid var(--line);border-radius:18px;padding:27px;transition:.25s}
+.card:hover{transform:translateY(-5px);border-color:rgba(216,173,88,.55)}.icon{font-size:30px;margin-bottom:12px}.card h3{margin-bottom:7px}.card p{color:var(--muted);font-size:14px}
+.about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:35px;align-items:center}.left h2{font-size:42px;line-height:1.12;margin:7px 0 15px}.left h2 span{color:var(--gold)}.left>p{color:var(--muted)}
+.checks{list-style:none;margin-top:20px}.checks li{margin:11px 0;color:#d1d2d5}.checks li:before{content:"✓";color:var(--gold);font-weight:bold;margin-right:10px}
+.info-box{border:1px solid #303238;border-radius:22px;padding:30px;background:radial-gradient(circle at 80% 15%,rgba(216,173,88,.15),transparent 35%),#121419}
+.info-box .number{font-size:55px;font-weight:900;color:var(--gold);line-height:1}.info-box p{color:#aaa;margin-top:9px}.line{height:1px;background:#2a2c31;margin:23px 0}
+.locations{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}.loc{border:1px solid #303238;padding:12px 17px;border-radius:12px;background:#111318}.loc strong{color:var(--gold)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{background:#111318;border:1px solid #25282e;border-radius:16px;padding:23px}.step b{color:var(--gold);font-size:13px}.step h3{margin:7px 0}.step p{font-size:13px;color:var(--muted)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{background:#111318;border:1px solid #292c32;border-radius:18px;padding:25px}.contact-card h3{margin-bottom:14px}.contact-item{padding:10px 0;border-bottom:1px solid #24272c;color:#bbb}.contact-item:last-child{border-bottom:0}.contact-item b{display:block;color:#777;font-size:11px;text-transform:uppercase;letter-spacing:1px}.contact-item a{color:#e8e8e8}.contact-item a:hover{color:var(--gold)}
+.cta{margin-top:20px;text-align:center;border:1px solid rgba(216,173,88,.3);border-radius:23px;padding:42px 20px;background:linear-gradient(110deg,#16181d,#211b10)}.cta h2{font-size:34px}.cta p{color:#aaa;margin:7px auto 21px}
+footer{border-top:1px solid #24262b;padding:28px 0;color:#777;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot strong{color:#bbb}
+.float{position:fixed;right:18px;bottom:18px;z-index:40;background:#1fa855;color:#fff;padding:13px 17px;border-radius:999px;font-weight:800;font-size:13px;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+@media(max-width:760px){nav ul{display:none}.menu{display:block}.hero{min-height:94vh}.hero-art{font-size:90px;bottom:8%}.grid3,.about-grid,.steps,.contact-grid{grid-template-columns:1fr}section{padding:70px 0}.heading h2{font-size:30px}.left h2{font-size:34px}.trust{margin-top:25px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="logo" href="#home">KRISHNA<i>MOVE</i> LOGISTICS</a>
+<ul><li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#process">Process</a></li><li><a href="#contact">Contact</a></li></ul>
+<div class="menu">☰</div>
+</nav></div></header>
+
+<main id="home">
+<section class="hero"><div class="wrap"><div class="hero-content">
+<div class="pill">Noida • Delhi-NCR</div>
+<h1>Safe Moves.<br><span>Smooth Journeys.</span></h1>
+<p class="hero-copy">आपका सामान, हमारी ज़िम्मेदारी। We make shifting simpler with careful handling, clear communication and reliable transportation.</p>
+<div class="actions"><a class="btn goldbtn" href="https://wa.me/919654075048?text=Hello%20KrishnaMove%20Logistics%2C%20I%20want%20a%20moving%20quote.">Get Free Quote</a><a class="btn darkbtn" href="tel:+919654075048">Call Now</a></div>
+<div class="trust"><span>✓ Transparent Communication</span><span>✓ Careful Handling</span><span>✓ Local NCR Service</span></div>
+</div><div class="hero-art">🚚</div></div></section>
+
+<section id="services"><div class="wrap">
+<div class="heading"><small>Our Services</small><h2>Moving Made Simple</h2><p>From packing to delivery, we coordinate the important parts of your move.</p></div>
+<div class="grid3">
+<div class="card"><div class="icon">🏠</div><h3>Home Shifting</h3><p>Household shifting with organised handling of furniture, boxes and essentials.</p></div>
+<div class="card"><div class="icon">🏢</div><h3>Office Relocation</h3><p>Practical relocation support for office furniture, equipment and packed items.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Packing & Loading</h3><p>Systematic packing and loading support to prepare your belongings for transit.</p></div>
+<div class="card"><div class="icon">🚚</div><h3>Local Transportation</h3><p>Transportation support across Noida, Delhi, Ghaziabad and Greater Noida.</p></div>
+<div class="card"><div class="icon">🛋️</div><h3>Furniture Moving</h3><p>Careful movement of bulky furniture and household items from pickup to destination.</p></div>
+<div class="card"><div class="icon">📍</div><h3>Pickup to Delivery</h3><p>One coordinated journey from your pickup location to the final destination.</p></div>
+</div></div></section>
+
+<section class="darksection" id="about"><div class="wrap about-grid">
+<div class="left"><small style="color:var(--gold);letter-spacing:2px;text-transform:uppercase">About KrishnaMove</small>
+<h2>आपका सामान,<br><span>हमारी ज़िम्मेदारी।</span></h2>
+<p>KrishnaMove Logistics is a customer-focused moving and transportation service based in Noida. Our goal is simple: make local shifting more organised, convenient and transparent for customers.</p>
+<ul class="checks"><li>Customer-first communication</li><li>Careful handling of belongings</li><li>Simple quotation process</li><li>Service across key NCR locations</li></ul></div>
+<div class="info-box"><div class="number">NCR</div><p>Noida • Delhi • Ghaziabad • Greater Noida</p><div class="line"></div><p><strong style="color:#eee">KRISHNAMOVE LOGISTICS</strong><br>Safe Moves. Smooth Journeys.</p></div>
+</div></section>
+
+<section><div class="wrap"><div class="heading"><small>Service Area</small><h2>Where We Serve</h2><p>Currently focused on selected locations across the Delhi-NCR region.</p></div>
+<div class="locations"><div class="loc"><strong>01</strong> Noida</div><div class="loc"><strong>02</strong> Delhi</div><div class="loc"><strong>03</strong> Ghaziabad</div><div class="loc"><strong>04</strong> Greater Noida</div></div></div></section>
+
+<section class="darksection" id="process"><div class="wrap"><div class="heading"><small>Our Process</small><h2>Simple. Clear. Convenient.</h2></div>
+<div class="steps">
+<div class="step"><b>01 — CONNECT</b><h3>Tell Us</h3><p>Share your pickup, destination and moving requirements.</p></div>
+<div class="step"><b>02 — QUOTE</b><h3>Get Estimate</h3><p>We understand your requirements and provide a quotation.</p></div>
+<div class="step"><b>03 — MOVE</b><h3>We Handle</h3><p>Coordinate packing, loading and transportation as required.</p></div>
+<div class="step"><b>04 — DELIVER</b><h3>Complete</h3><p>Your goods are transported to the destination with coordinated support.</p></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="heading"><small>Contact Us</small><h2>Let's Plan Your Move</h2><p>Call or WhatsApp us for your moving requirements and quotation.</p></div>
+<div class="contact-grid">
+<div class="contact-card"><h3>Get in Touch</h3>
+<div class="contact-item"><b>Primary Contact</b><a href="tel:+919654075048">+91 9654075048</a></div>
+<div class="contact-item"><b>Alternate Contact</b><a href="tel:+918448258922">+91 8448258922</a></div>
+<div class="contact-item"><b>WhatsApp</b><a href="https://wa.me/919654075048">+91 9654075048</a></div>
+<div class="contact-item"><b>Email</b><a href="mailto:krishnamovelogistics@gmail.com">krishnamovelogistics@gmail.com</a></div>
+</div>
+<div class="contact-card"><h3>Office / Base Location</h3>
+<div class="contact-item"><b>Address</b>Harola, Sector 5, Noida, Uttar Pradesh</div>
+<div class="contact-item"><b>Service Area</b>Noida • Delhi • Ghaziabad • Greater Noida</div>
+<div class="contact-item"><b>Availability</b>Contact us to discuss your moving requirement.</div>
+</div>
+</div>
+<div class="cta"><h2>Need a Moving Quote?</h2><p>WhatsApp us with your pickup, destination and moving date.</p><a class="btn goldbtn" href="https://wa.me/919654075048?text=Hello%20KrishnaMove%20Logistics%2C%20I%20want%20a%20moving%20quote.">Chat on WhatsApp</a></div>
+</div></section>
+</main>
+
+<a class="float" href="https://wa.me/919654075048?text=Hello%20KrishnaMove%20Logistics%2C%20I%20want%20a%20moving%20quote.">💬 WhatsApp</a>
+<footer><div class="wrap foot"><div>© 2026 <strong>KRISHNAMOVE LOGISTICS</strong>. All rights reserved.</div><div>Harola, Sector 5, Noida • Delhi-NCR</div></div></footer>
+</body>
+</html>
